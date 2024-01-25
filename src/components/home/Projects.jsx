@@ -42,7 +42,7 @@ const Projects = () => {
             img={wallet}
             title='Billetera virtual'
             description='Esta aplicación web, compatible con cualquier dispositivo, permite realizar transferencias de dinero ficticio
-                             mediante códigos QR, es facil de usar con una visualizacion atractiva
+                             mediante códigos QR, es facil de usar con una visualización atractiva
                         en donde el usuario ingresa un monto y se convierte en un codigo QR. El otro usuario que le envía el dinero
                         solo necesita verificar el QR y enviarle el dinero, facil y sencillo para cualquier publico.'
             tecnologias={AFITT}

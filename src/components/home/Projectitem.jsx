@@ -13,7 +13,7 @@ const ProjectItem = ({ img, title, description, tecnologias }) => {
       />
 
       <div id="info-cards" className="w-[80%] hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-45%]">
-        <h3 className="mb-3 text-2xl font-bold text-white tracking-wider text-center">{title}</h3>
+        <h3 id="tittle-style" className="mb-3 text-2xl font-bold text-white tracking-wider text-center">{title}</h3>
         <p className="text-sm">{description}</p>
         <img id="icon-tecnologias" src={tecnologias} className="pb-4 pt-2 text-white text-center"></img>
       </div>
