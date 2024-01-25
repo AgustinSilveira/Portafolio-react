@@ -15,7 +15,7 @@ export default defineConfig({
     WindiCSS(),
   ],
   build: {
-    outDir: 'dist',
+    outDir: 'build',
   },
   server: {
     port: 3000,
